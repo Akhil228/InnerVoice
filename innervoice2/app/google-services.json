@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "755035416588",
+    "firebase_url": "https://innervoice2-c841b.firebaseio.com",
+    "project_id": "innervoice2-c841b",
+    "storage_bucket": "innervoice2-c841b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755035416588:android:5a53f22cb3896cb0416629",
+        "android_client_info": {
+          "package_name": "com.example.innervoice2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755035416588-g0d1qajmhtbjq33v9csrjnpnndvkqroa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpr0ENKwvQZoXE8M-_oDAiGJkawsuaRlc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755035416588-g0d1qajmhtbjq33v9csrjnpnndvkqroa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

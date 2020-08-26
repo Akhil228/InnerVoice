@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">innervoice2</string>
+    <string name="about_paragraph"> Everyone has a innertalent and  innervoice which they want to express.
+        Some express through words and some by singing.This app is designed for those.It is a Karaoke app
+        that is used for singing practice.In this app,You have a facitlity to listen the whole track and
+        record it separately.Lyrics will be displayed on the screen while singing.You can listen the karaoke
+        track many times without recording,and can record the song when ever you are familiar with the tune.
+        All THE BEST!!!
+    </string>
+</resources>

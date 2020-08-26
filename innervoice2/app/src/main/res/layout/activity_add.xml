@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:hint="Enter trackame"
+            android:gravity="center"
+            android:id="@+id/name"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+        />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lyrics"
+            android:hint="Enter lyrics"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:gravity="center"
+
+
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="30dp"
+            android:text="No track selected"
+            android:id="@+id/trackname"
+            android:textColor="#ffffff"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select file"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:id="@+id/selecttrack"
+            android:textColor="#ffffff"
+            android:background="#000000"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="upload"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:id="@+id/upload"
+            android:textColor="#ffffff"
+            android:background="#000000"/>
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>
